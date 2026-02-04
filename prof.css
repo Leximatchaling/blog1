@@ -1,3 +1,4 @@
+
 			body {
 			margin: 0;
 			height: 100vh;
@@ -128,8 +129,8 @@
 		span {
 		font-weight: bold; 
 		}
-
-		.btn {
+		
+			.btn {
 		background-color: black;  
 		color: white;             
 		padding: 12px 24px;         
@@ -143,6 +144,7 @@
 		font-family: Courier;
     }
 
+		
 		.btn:hover {
 		background-color: #90499A;   
 		transform: scale(1.05); 
@@ -152,8 +154,19 @@
 		a.hover {
 		text-decoration: none;  
 		color: white;    
+		}
+		
+		
+		.fa {
+		padding: 20px;
+		font-size: 30px;
+		width: 20px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+		border-radius: 50%;
 	}
-	
+
 		.fa:hover {
 		opacity: 0.7;
 	}
@@ -176,7 +189,4 @@
 		.fa-spotify {
 		background: #AF69AD;
 		color: white;
-
 	}
-
-
