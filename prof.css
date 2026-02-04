@@ -128,8 +128,14 @@
 		span {
 		font-weight: bold; 
 		}
-		
-			.btn {
+
+
+		.button-container {
+ 		 position: relative;
+  		display: inline-block;
+		}
+
+		.btn {
 		background-color: black;  
 		color: white;             
 		padding: 12px 24px;         
@@ -143,7 +149,6 @@
 		font-family: Courier;
     }
 
-		
 		.btn:hover {
 		background-color: #90499A;   
 		transform: scale(1.05); 
@@ -153,8 +158,25 @@
 		a.hover {
 		text-decoration: none;  
 		color: white;    
-		}
-		
+	}
+	
+		.hover-text {
+ 		 display: none;
+ 		 position: absolute;
+ 		 top: 100%;  
+  		left: 0;
+  		margin-top: 5px;
+ 		background: #333;
+ 		color: #fff;
+		padding: 5px 10px;
+  		border-radius: 4px;
+  		font-size: 14px;
+	}
+
+
+		.button-container:hover .hover-text {
+		display: block;
+	}
 		
 		.fa {
 		padding: 20px;
@@ -188,4 +210,5 @@
 		.fa-spotify {
 		background: #AF69AD;
 		color: white;
+
 	}
