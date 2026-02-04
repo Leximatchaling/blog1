@@ -1,0 +1,159 @@
+			body {
+			margin: 0;
+			height: 100vh;
+			background-image: url('stars.gif');
+			background-size: cover;
+			background-repeat: repeat;
+			background-position: center;
+			text-align: center;
+		}
+
+            h1{
+            color: white;
+            font-family: Times New Roman;
+            text-align: center;	
+			font-size: 50px
+        }
+		
+			p {
+            color: #4A186F;
+            font-family: Courier;
+			font-size: 20px;
+			text-align: center;
+        }
+		
+			ul {
+			list-style-type: none;   
+			margin: 5px;
+			padding: 5px;
+			text-align: center;   
+			background-color:rgba(0, 0, 0, 0.5);
+			position:sticky;
+			top:0;
+			border-radius:10px;
+			z-index: 1000;
+		}
+
+			ul li {
+			display: inline-block; 
+			margin: 10px 15px;    
+			border-radius:10px;
+		}
+
+			ul li a{
+			text-decoration: none;  
+			color: white;        
+			padding: 10px 15px;
+			transition: background-color 0.3s ease;
+			border-radius:10px;
+		}
+		
+			ul li a:hover {
+			background-color: #C58FBC;
+			border-radius:10px;
+			color: white;     
+		}
+		
+		
+			ul li a.active {
+			background-color: #90499A;
+			border-radius:10px;
+			color: white;     
+		}
+		
+			.glow-text { 
+			color: #DABBD0;
+			text-shadow: 
+			0 0 5px #6D2E84, 
+			0 0 10px #6D2E84, 
+			0 0 20px #6D2E84,
+			0 0 40px #6D2E84;
+		}
+		
+	ul {
+      list-style-type: none;   
+      margin: 5px;
+      padding: 5px;
+      text-align: center;   
+      background-color:rgba(0, 0, 0, 0.5);
+	  position: sticky;
+	  top:0;
+	  border-radius:10px;
+	}
+
+		ul li {
+		display: inline-block; 
+		margin: 10px 15px;    
+		border-radius:10px;
+		text-decoration: none;  
+	}
+
+		ul li a {
+		text-decoration: none;  
+		color: white;        
+		padding: 10px 15px;
+		transition: background-color 0.3s ease;
+		border-radius:10px;
+	}
+
+		ul li a:hover {
+		background-color: #bb99ff;
+		border-radius:10px;
+	}
+	
+		.wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
+		
+		.container { 
+		display: flex;
+		border-radius: 15px;
+		width: 900px;
+		border:1px solid;
+		padding: 20px;
+		border-color:  rgba(0, 0, 0, 0.5);
+		background-color: rgba(242, 230, 255, 0.5);	
+		box-shadow: 10px 10px 5px #AF69AD;
+		text-align: center;
+	} 
+		.photo { 
+		border-radius: 10px;
+		border: 2px solid #AF69AD;
+		width: 250px; 
+		height: auto;
+		margin-right: 10px; }
+
+		span {
+		font-weight: bold;
+		}
+		
+		.btn {
+		background-color: black;  
+		color: white;             
+		padding: 12px 24px;         
+		border: none;               
+		border-radius: 20px;         
+		font-size: 16px;          
+		cursor: pointer;
+		transition: transform 0.2s ease, background-color 0.3s ease;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: Courier;
+    }
+
+		
+		.btn:hover {
+		background-color: #90499A;   
+		transform: scale(1.05); 
+		font-family: Courier;
+    }
+	
+		a.hover {
+		text-decoration: none;  
+		color: white;    
+		}
+		
+		
+			 
